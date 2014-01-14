@@ -1,0 +1,23 @@
+/* styles to create numbered headings */
+body {counter-reset:section;}
+
+.content-title {
+  color: rgb(51, 51, 51);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+h1 {counter-reset:subsection;}
+h1:before
+{
+  counter-increment:section;
+  content:counter(section) ". ";
+      font-weight:bold;
+}
+
+h2:before
+{
+  counter-increment:subsection;
+  content:counter(section) "." counter(subsection) " ";
+}

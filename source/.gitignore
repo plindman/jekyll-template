@@ -1,0 +1,6 @@
+node_modules/
+bower_components/
+Gemfile.lock
+assets/vendor/
+assets/vendor.js
+

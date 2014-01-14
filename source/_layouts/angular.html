@@ -1,0 +1,36 @@
+<!doctype html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+  <head>
+    <base href="{{ site.baseurl }}/">
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>{{ page.title }}</title>
+    <meta name="description" content=""/>
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/bootstrap/css/bootstrap-theme.css"/>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css"/>
+  </head>
+  
+  <body data-ng-app="app">
+  
+    <!-- Add your site or application content here -->
+    <div class="container" ng-view=""></div>
+
+    <script src="{{ site.baseurl }}/assets/vendor.js"></script>
+    <script src="{{ site.baseurl }}/assets/app/scripts/app.js"></script>
+    <script src="{{ site.baseurl }}/assets/app/scripts/dp/dpFactory.js"></script>
+    <script src="{{ site.baseurl }}/assets/app/scripts/dp/dpCtrl.js"></script>
+		
+</body>
+</html>
+

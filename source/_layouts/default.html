@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <title>{{ site.name }} - {{ page.title }}</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/vendor/bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/themes/default.css"/>
+    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/doc.css"/> -->
+</head>
+<body>
+  {% include navbar.html %}
+  
+  <div class="container">
+
+    {{ content }}
+    <hr>
+    
+    {% include footer.html %}
+    
+  </div>
+  
+  <script src="/assets/vendor.js"></script>
+  
+</body>
+</html>

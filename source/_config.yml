@@ -1,0 +1,5 @@
+name: jekyll-template
+baseurl: /jekyll-template
+destination: ../dist
+exclude: [README.md, Gemfile, Gemfile.lock, Gruntfile.js, bower.json, bower_components, node_modules, npm-debug.log, package.json]
+

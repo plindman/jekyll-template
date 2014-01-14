@@ -1,0 +1,19 @@
+{
+  "name": "jekyll-template",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-exec": "*",
+    "bower": "*"
+  },
+  "engines": {
+    "npm": "1.3.x"
+  },
+  "devDependencies": {
+    "grunt-github-pages": "0.0.4"
+  }
+}
